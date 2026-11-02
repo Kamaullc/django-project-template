@@ -1,0 +1,10 @@
+{
+  "name": "django-project-template",
+  "scripts": {},
+  "env": {
+    "SECRET_KEY": {"generator": "secret"},
+    "DEBUG": "False",
+    "ALLOWED_HOSTS": {"description": "Comma-separated hosts, e.g. myapp.herokuapp.com"}
+  },
+  "buildpacks": [{"url": "heroku/python"}]
+}
